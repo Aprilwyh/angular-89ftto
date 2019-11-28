@@ -9,7 +9,7 @@
 :host(.active) {
   border-width: 3px;
 }
-
+/* 当某个祖先元素有 CSS 类 theme-light 时，才会把 background-color 样式应用到组件内部的所有 <h2> 元素中 */
 :host-context(.theme-light) h2 {
   background-color: #eef;
 }
