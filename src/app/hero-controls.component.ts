@@ -3,6 +3,7 @@ import { Hero } from './hero';
 
 @Component({
   selector: 'app-hero-controls',
+  // 模板内联样式
   template: `
     <style>
       button {

@@ -1,4 +1,5 @@
 /* The AOT compiler needs the `./` to show that this is local */
+/* 利用标准的 CSS @import 规则 */
 @import './hero-details-box.css';
 
 :host {
